@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Urban Tails</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="logo">Urban Tails<span>•</span></a>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+
+<main class="page">
+
+<section class="page-header">
+  <p class="eyebrow orange">GET IN TOUCH</p>
+  <h1>Let's Talk Tails</h1>
+  <p>Ready to get started? Send us a message.</p>
+</section>
+
+<section class="contact-layout">
+
+  <form class="contact-form" action="#" method="post">
+
+    <label>
+      Your Name
+      <input type="text" name="name" required>
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      Phone
+      <input type="tel" name="phone">
+    </label>
+
+    <label>
+      What can we help with?
+      <select name="service">
+        <option>Dog Walking</option>
+        <option>Drop-In Visits</option>
+        <option>Pet Sitting</option>
+        <option>Something else</option>
+      </select>
+    </label>
+
+    <label>
+      Message
+      <textarea name="message" rows="6"></textarea>
+    </label>
+
+    <button type="submit" class="button">Send Message →</button>
+
+  </form>
+
+  <aside class="contact-info">
+
+    <div>
+      <span>PHONE</span>
+      <a href="tel:[YOURPHONE]">[YOUR PHONE]</a>
+    </div>
+
+    <div>
+      <span>EMAIL</span>
+      <a href="mailto:[YOUREMAIL]">[YOUR EMAIL]</a>
+    </div>
+
+    <div>
+      <span>SERVICE AREA</span>
+      <p>Wrights Mill<br>Wyndchase<br>Jackson, Tennessee</p>
+    </div>
+
+  </aside>
+
+</section>
+
+</main>
+
+<footer>
+  <div>
+    <strong>Urban Tails</strong>
+    <span>Happy Paws, Without the Pause.</span>
+  </div>
+  <p>Jackson, TN · © 2026</p>
+</footer>
+
+</body>
